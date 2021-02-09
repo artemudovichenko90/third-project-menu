@@ -1,0 +1,52 @@
+ul {
+    font-size: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+li {
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #0fa26f;
+    border: 1px solid #0e885c;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu > li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul ul {
+    display: none;
+}
+
+
+.item-categories {
+    position: relative;
+    padding-top: 15px;
+}
+
+.item-woman {
+    position: relative;
+    top: -35px;
+    left: 199px;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+p {
+    padding-top: 50px;
+}
+
+li:hover {
+    background-color: #0e885c;
+}
