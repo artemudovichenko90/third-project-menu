@@ -26,11 +26,11 @@
 
 .nav-menu-item:hover .sub-menu-drop-down {
     top: 100%;
-    left: 0;
+    left: -1px;
 }
 
 .nav-menu-item:hover .sub-menu-drop-right {
-    top: 0;
+    top: -1px;
     left: 100%;
 }
 
@@ -45,7 +45,7 @@
     display: block;
 }
 
-.nav-menu-link:hover {
+.nav-menu-item:hover {
     background-color: #0e885c;
 
 }
